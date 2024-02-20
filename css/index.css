@@ -357,6 +357,7 @@ span{
     border-radius: 1em;
     cursor: pointer;
     transition: 0.3s ease;
+    color: var(--text-color);
 }
 
 .projects-box:hover{
@@ -381,7 +382,7 @@ span{
 
 .projects-info p{
     margin-top: 2rem;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     margin: auto;
 }
@@ -564,4 +565,13 @@ span{
         font-weight: 400;
         margin: auto;
     }
+}
+
+@media(max-width: 500px){
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
 }
